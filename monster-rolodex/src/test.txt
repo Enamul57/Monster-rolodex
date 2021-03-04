@@ -1,0 +1,4 @@
+ <input type='search' placeholder='Search Monster' onChange={ e => {
+          this.setState({searchFields: e.target.value })
+        }
+          }/>
